@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+
+.limited-width {
+  max-width: 1024px;
+}
+
+body, html {
+  height: 100vh;
+}
+
+header {
+  background-color: aqua;
+}
+header .limited-width {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header .limited-width img {
+  width: 150px;
+}
+header .limited-width nav {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5490196078);
+  padding: 10px;
+}
+header .limited-width nav a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+header .limited-width nav a:hover {
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+
+.banner {
+  background: no-repeat url("../assets/recepcao.png") center;
+  background-size: cover;
+  height: 200px;
+}
+.banner .limited-width {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner .limited-width h1, .banner .limited-width p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-left: 15px;
+}
+
+main .limited-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .limited-width #about {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+main .limited-width #about p {
+  text-align: center;
+  padding: 15px;
+}
+main .limited-width #about .about-list img {
+  display: none;
+}
+main .limited-width #about .about-list h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+main .limited-width #about .about-list ul {
+  margin-left: 35px;
+}
+main .limited-width .content {
+  margin-top: 100px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .limited-width .content .content-text {
+  text-align: center;
+}
+main .limited-width .content .content-text h2 {
+  font-size: 1rem;
+}
+main .limited-width .content img {
+  width: 200px;
+}/*# sourceMappingURL=mobilefirst.css.map */

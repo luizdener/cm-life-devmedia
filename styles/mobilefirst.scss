@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+.limited-width {
+    max-width: 1024px;
+}
+
+body, html {
+    height: 100vh;
+}
+
+header {
+    background-color: aqua;
+
+    .limited-width {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        position: relative;
+
+        img {
+            width: 150px;
+        }
+
+        nav {
+            width: 90vw;
+            
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+
+            border-top: 1px solid #0000008c;
+
+            padding: 10px;
+
+            a {
+                font-size: 12px;
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    color: #0000008c;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    background: no-repeat url('../assets/recepcao.png') center;
+    background-size: cover;
+
+    height: 200px;
+
+    .limited-width {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h1, p {
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: normal;
+
+            margin-left: 15px;
+        }
+        
+    }
+}
+main {
+    .limited-width {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #about {
+            margin-top: 100px;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+            gap: 25px;
+        
+            p {
+                text-align: center;
+                padding: 15px;
+            }
+        
+            .about-list {
+                
+                img {
+                    display: none;
+                }
+        
+                h3 {
+                    text-align: center;
+                    font-weight: normal;
+                    font-size: 1.2rem;
+        
+                    margin-bottom: 25px;
+                }
+        
+                ul {
+                    margin-left: 35px;
+        
+                }
+            }
+        }
+        
+        .content {
+            margin-top: 100px;
+            width: 90%;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+            .content-text {
+                text-align: center;
+        
+                h2 {
+                    font-size: 1rem;
+                }
+            }
+        
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
