@@ -1,5 +1,67 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
+    header {
+        .limited-width {
+            padding: 0 15px;
+            flex-direction: row;
+            justify-content: space-between;
+
+            nav {
+                width: auto;
+                border: none;
+
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
     .banner {
         height: 300px;
+
+        .limited-width {
+            h1, p {
+                font-size: 2rem;
+            }
+        }
     }
+
+    main {
+        .limited-width {
+
+            #about {
+                p {
+                    max-width: 90%;
+                }
+            }
+            .content {
+                .content-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    margin-bottom: 20px;
+
+                    p {
+                        max-width: 90%;
+                    }
+                }
+                .images {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    column-gap: 40px;
+                    row-gap: 20px;
+
+        
+                    figure {
+                        width: calc((100% / 2) - 40px);
+                    }
+                }
+            }
+        }
+    }
+
 }

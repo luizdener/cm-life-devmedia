@@ -1,5 +1,92 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .banner {
-        height: 400px;
+    header {
+        .limited-width {
+            padding: 0 15px;
+            flex-direction: row;
+            justify-content: space-between;
+
+            nav {
+                width: auto;
+                border: none;
+
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    main {
+        .banner {
+            height: 400px;
+
+            .limited-width {
+                h1, p {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .limited-width {
+            #about {
+
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    max-width: 80%;
+                    font-size: 1.2rem;
+                }
+
+                .about-list {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        display: block;
+                    }
+                }
+            }
+
+            .content {
+                .content-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.4rem;
+                    }
+
+                    p {
+                        max-width: 80%;
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .images {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 40px;
+
+                    figure {
+                        width: calc((100% / 3));
+                    }
+                }
+            }
+
+            .contact {
+                p {
+                    max-width: 80%;
+                    font-size: 1.2rem;
+                }
+
+                iframe {
+                    width: 105%;
+                }
+            }
+        }
+
     }
 }

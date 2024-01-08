@@ -15,7 +15,7 @@ body, html {
 }
 
 header {
-  background-color: aqua;
+  background-color: rgb(54, 180, 180);
 }
 header .limited-width {
   margin: 0 auto;
@@ -70,6 +70,7 @@ main .limited-width {
   align-items: center;
 }
 main .limited-width #about {
+  width: 90%;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -100,13 +101,66 @@ main .limited-width .content {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 main .limited-width .content .content-text {
   text-align: center;
 }
 main .limited-width .content .content-text h2 {
   font-size: 1rem;
+  margin-bottom: 20px;
 }
-main .limited-width .content img {
-  width: 200px;
+main .limited-width .content .images, main .limited-width .content img {
+  width: 100%;
+}
+main .limited-width .content .images figure, main .limited-width .content img figure {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5490196078);
+}
+main .limited-width .content .images figure figcaption, main .limited-width .content img figure figcaption {
+  padding: 10px;
+}
+main .limited-width .content a {
+  background-color: rgb(54, 180, 180);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5490196078);
+}
+main .limited-width .contact {
+  margin-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .limited-width .contact p {
+  text-align: center;
+}
+main .limited-width .contact iframe {
+  width: 100%;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(26, 126, 126);
+}
+footer .limited-width {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+footer .limited-width p {
+  text-align: center;
+  color: #fff;
+}
+footer .limited-width img {
+  width: 150px;
 }/*# sourceMappingURL=mobilefirst.css.map */

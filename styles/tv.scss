@@ -1,5 +1,107 @@
 @media screen and (min-width: 1024px) {
-    .banner {
-        height: 500px;
+    
+    header {
+        .limited-width {
+            padding: 0 15px;
+            flex-direction: row;
+            justify-content: space-between;
+
+            nav {
+                width: auto;
+                border: none;
+
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    main {
+        .banner {
+            height: 500px;
+
+            .limited-width {
+                h1, p {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .limited-width {
+            margin: 0 auto;
+
+            #about {
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    max-width: 80%;
+                    font-size: 1.3rem;
+                }
+
+                .about-list {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        display: block;
+                    }
+
+                    aside {
+                        h3 {
+                            font-size: 1.5rem;
+                        }
+
+                        ul li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                .content-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2rem;
+                    }
+    
+                    p {
+                        max-width: 80%;
+                        font-size: 1.3rem;
+                    }
+                }
+
+                .images {
+                    width: 110%;
+                    display: flex;
+                    gap: 40px;
+
+                    figure {
+                        width: calc(100% / 3);
+                    }
+                }
+            }
+
+            .contact {
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    max-width: 80%;
+                    font-size: 1.3rem;
+                }
+
+                iframe {
+                    width: 110%;
+                }
+            }
+        }
     }
 }

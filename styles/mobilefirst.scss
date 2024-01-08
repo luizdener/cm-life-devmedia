@@ -15,7 +15,7 @@ body, html {
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(54, 180, 180);
 
     .limited-width {
         margin: 0 auto;
@@ -78,6 +78,7 @@ header {
         
     }
 }
+
 main {
     .limited-width {
         display: flex;
@@ -85,6 +86,7 @@ main {
         align-items: center;
 
         #about {
+            width: 90%;
             margin-top: 100px;
         
             display: flex;
@@ -128,18 +130,86 @@ main {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            gap: 20px;
         
             .content-text {
                 text-align: center;
         
                 h2 {
                     font-size: 1rem;
+                    margin-bottom: 20px;
                 }
             }
         
-            img {
-                width: 200px;
+            .images, img {
+                width: 100%;
+
+                figure {
+                    width: 100%;
+                    text-align: center;
+
+                    margin-bottom: 25px;
+
+                    box-shadow: 0px 0px 5px 2px #0000008c;
+
+                    figcaption {
+                        padding: 10px;
+                    }
+                }
             }
+
+            a {
+                background-color: rgb(54, 180, 180);
+                padding: 10px 20px;
+                text-decoration: none;
+                color: #fff;
+
+                box-shadow: inset 0px 0px 4px #0000008c;
+            }
+        }
+
+        .contact {
+            margin-top: 50px;
+            width: 90%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            p {
+                text-align: center;
+            }
+
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(26, 126, 126);
+
+    .limited-width {
+        width: 90%;
+
+        margin: 0 auto;
+        padding: 40px 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        p {
+            text-align: center;
+            color: #fff;
+        }
+
+        img {
+            width: 150px;
         }
     }
 }

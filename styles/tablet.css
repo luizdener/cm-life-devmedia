@@ -1,5 +1,44 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  header .limited-width {
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .limited-width nav {
+    width: auto;
+    border: none;
+  }
+  header .limited-width nav a {
+    font-size: 1.2rem;
+  }
   .banner {
     height: 300px;
+  }
+  .banner .limited-width h1, .banner .limited-width p {
+    font-size: 2rem;
+  }
+  main .limited-width #about p {
+    max-width: 90%;
+  }
+  main .limited-width .content .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  main .limited-width .content .content-text p {
+    max-width: 90%;
+  }
+  main .limited-width .content .images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 20px;
+  }
+  main .limited-width .content .images figure {
+    width: calc(50% - 40px);
   }
 }/*# sourceMappingURL=tablet.css.map */

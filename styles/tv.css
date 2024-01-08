@@ -1,5 +1,73 @@
 @media screen and (min-width: 1024px) {
-  .banner {
+  header .limited-width {
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .limited-width nav {
+    width: auto;
+    border: none;
+  }
+  header .limited-width nav a {
+    font-size: 1.2rem;
+  }
+  main .banner {
     height: 500px;
+  }
+  main .banner .limited-width h1, main .banner .limited-width p {
+    font-size: 2.5rem;
+  }
+  main .limited-width {
+    margin: 0 auto;
+  }
+  main .limited-width #about h2 {
+    font-size: 2rem;
+  }
+  main .limited-width #about p {
+    max-width: 80%;
+    font-size: 1.3rem;
+  }
+  main .limited-width #about .about-list {
+    display: flex;
+    align-items: center;
+  }
+  main .limited-width #about .about-list img {
+    display: block;
+  }
+  main .limited-width #about .about-list aside h3 {
+    font-size: 1.5rem;
+  }
+  main .limited-width #about .about-list aside ul li {
+    font-size: 1.2rem;
+  }
+  main .limited-width .content .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .limited-width .content .content-text h2 {
+    font-size: 2rem;
+  }
+  main .limited-width .content .content-text p {
+    max-width: 80%;
+    font-size: 1.3rem;
+  }
+  main .limited-width .content .images {
+    width: 110%;
+    display: flex;
+    gap: 40px;
+  }
+  main .limited-width .content .images figure {
+    width: 33.3333333333%;
+  }
+  main .limited-width .contact h2 {
+    font-size: 2rem;
+  }
+  main .limited-width .contact p {
+    max-width: 80%;
+    font-size: 1.3rem;
+  }
+  main .limited-width .contact iframe {
+    width: 110%;
   }
 }/*# sourceMappingURL=tv.css.map */
