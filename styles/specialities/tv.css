@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+  header .limited-width {
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .limited-width nav {
+    width: auto;
+    border: none;
+  }
+  header .limited-width nav a {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=tv.css.map */

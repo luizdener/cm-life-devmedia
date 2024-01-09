@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+
+.limited-width {
+  max-width: 1024px;
+}
+
+body, html {
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(54, 180, 180);
+}
+header .limited-width {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header .limited-width img {
+  width: 150px;
+}
+header .limited-width nav {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5490196078);
+  padding: 10px;
+}
+header .limited-width nav a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+header .limited-width nav a:hover {
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+
+main .limited-width {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .limited-width .main-header {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .limited-width .main-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+}
+main .limited-width .main-header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(54, 180, 180);
+}
+main .limited-width .specialty {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .limited-width .specialty .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main .limited-width .specialty .text p {
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+main .limited-width .specialty .table-container .img-container {
+  display: none;
+}
+main .limited-width .specialty .table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+main .limited-width .specialty .table-container table thead {
+  background-color: rgb(54, 180, 180);
+}
+main .limited-width .specialty .table-container table thead th {
+  padding: 10px;
+  text-align: start;
+  color: #fff;
+}
+main .limited-width .specialty .table-container table tbody tr td {
+  padding: 10px;
+}
+main .limited-width .specialty .table-container table tbody tr:nth-of-type(odd) {
+  background-color: rgba(102, 102, 102, 0.5490196078);
+}
+main .limited-width .specialty .table-container table tbody tr:nth-of-type(even) {
+  background-color: rgba(224, 222, 222, 0.6784313725);
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(26, 126, 126);
+}
+footer .limited-width {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+footer .limited-width p {
+  text-align: center;
+  color: #fff;
+}
+footer .limited-width img {
+  width: 150px;
+}/*# sourceMappingURL=mobilefirst.css.map */
