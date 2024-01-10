@@ -8,6 +8,7 @@
 
 .limited-width {
     max-width: 1024px;
+    margin: 0 auto;
 }
 
 body, html {
@@ -108,8 +109,11 @@ main {
             }
 
             .table-container {
+                display: flex;
                 .img-container {
                     display: none;
+                    width: 50%;
+                    height: 250px;
                 }
 
                 table {
@@ -141,6 +145,31 @@ main {
                     }
                 }
             }
+        }
+
+        #ortopedia .img-container {
+            background: url('../../assets/ortopedia.png') no-repeat;
+            background-size: cover;
+        }
+
+        #pediatria .img-container {
+            background: url('../../assets/pediatra2.png') no-repeat;
+            background-size: cover;
+        }
+
+        #geriatria .img-container {
+            background: url('../../assets/geriatra.png') no-repeat;
+            background-size: cover;
+        }
+
+        #psicologia .img-container {
+            background: url('../../assets/psicologo.png') no-repeat;
+            background-size: cover;
+        }
+
+        #fisioterapia .img-container {
+            background: url('../../assets/fisioterapia.png') no-repeat;
+            background-size: cover;
         }
     }
 }

@@ -11,4 +11,11 @@
   header .limited-width nav a {
     font-size: 1.2rem;
   }
+  main .limited-width {
+    padding: 0 15px;
+  }
+  main .limited-width .specialty .text p {
+    max-width: 80%;
+    font-size: 0.9rem;
+  }
 }/*# sourceMappingURL=tablet.css.map */

@@ -8,6 +8,7 @@
 
 .limited-width {
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 body, html {
@@ -87,8 +88,13 @@ main .limited-width .specialty .text p {
   font-size: 1rem;
   text-align: center;
 }
+main .limited-width .specialty .table-container {
+  display: flex;
+}
 main .limited-width .specialty .table-container .img-container {
   display: none;
+  width: 50%;
+  height: 250px;
 }
 main .limited-width .specialty .table-container table {
   border-collapse: collapse;
@@ -110,6 +116,26 @@ main .limited-width .specialty .table-container table tbody tr:nth-of-type(odd) 
 }
 main .limited-width .specialty .table-container table tbody tr:nth-of-type(even) {
   background-color: rgba(224, 222, 222, 0.6784313725);
+}
+main .limited-width #ortopedia .img-container {
+  background: url("../../assets/ortopedia.png") no-repeat;
+  background-size: cover;
+}
+main .limited-width #pediatria .img-container {
+  background: url("../../assets/pediatra2.png") no-repeat;
+  background-size: cover;
+}
+main .limited-width #geriatria .img-container {
+  background: url("../../assets/geriatra.png") no-repeat;
+  background-size: cover;
+}
+main .limited-width #psicologia .img-container {
+  background: url("../../assets/psicologo.png") no-repeat;
+  background-size: cover;
+}
+main .limited-width #fisioterapia .img-container {
+  background: url("../../assets/fisioterapia.png") no-repeat;
+  background-size: cover;
 }
 
 footer {

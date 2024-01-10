@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   header .limited-width {
     padding: 0 15px;
     flex-direction: row;
@@ -10,5 +10,24 @@
   }
   header .limited-width nav a {
     font-size: 1.2rem;
+  }
+  main .limited-width {
+    padding: 0 15px;
+  }
+  main .limited-width .main-header nav a {
+    font-size: 1.2rem;
+  }
+  main .limited-width .main-header h2 {
+    font-size: 1.8rem;
+  }
+  main .limited-width .specialty .text h2 {
+    font-size: 1.5rem;
+  }
+  main .limited-width .specialty .text p {
+    max-width: 60%;
+    font-size: 1.1rem;
+  }
+  main .limited-width .specialty .table-container .img-container {
+    display: block;
   }
 }/*# sourceMappingURL=desktop.css.map */
